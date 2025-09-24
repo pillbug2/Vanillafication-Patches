@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Rename Advance Incubator -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="MF_Building_AdvanceEggHatcher"]/label</xpath>
+		<value>
+			<label>Incubator</label>
+		</value>
+	</Operation>
+	
+</Patch>

@@ -36,10 +36,8 @@
     <li>ferny.progressionstorage</li>
     <li>ferny.progressionscenarios</li>
     <li>ferny.progressiongravship</li>
-	
-	<!-- LOAD AFTER BETTER ARCHITECT -->
-	<li>ferny.betterarchitect</li>
 
     <!-- LOAD AFTER ALTERED MODS -->
+	<li>mf.ahm</li>
     </loadAfter>
 </ModMetaData>
