@@ -1,6 +1,10 @@
 <loadFolders>
     <v1.6>
-        <li>/</li>
-		<li IfModActive="mf.ahm">Patches/Advance Incubator</li>
+		<li>/</li>
+		<li>1.6/</li>
+		<li IfModActive="owlchemist.cherrypicker">Mods/Cherry Picker</li>
+		<li IfModActive="mf.ahm">Mods/Advance Incubator</li>
+		<li IfModActive="als.gravtech">Mods/GravTech</li>
+		<li IfModActive="aoba.fortress.industrial">Mods/Fortification Industrial</li>
     </v1.6>
 </loadFolders>

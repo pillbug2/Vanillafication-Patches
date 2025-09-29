@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	
+	<!-- Remove gravitonium, graweave as stuff (OP, bloat) -->
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Gravitonium"]/stuffProps/categories</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Graweave"]/stuffProps/categories</xpath>
+	</Operation>
+	
+	<!-- Rebalance/rename singularity reactor -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/label</xpath>
+		<value>
+			<label>Penrose engine</label>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/description</xpath>
+		<value>
+			<description>High glittertech installation for lifting massive gravships. Provides a modicum of free energy via the Penrose process. May rupture if damaged.</description>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/comps/li[@Class="CompProperties_GravshipFacility"]/statOffsets/SubstructureSupport</xpath>
+		<value>
+			<SubstructureSupport>2000</SubstructureSupport>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
+		<value>
+			<basePowerConsumption>-10000</basePowerConsumption>
+		</value>
+	</Operation>
+	
+</Patch>
