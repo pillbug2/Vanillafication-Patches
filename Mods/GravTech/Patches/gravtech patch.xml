@@ -11,14 +11,7 @@
 		<xpath>Defs/ThingDef[defName="Graweave"]/stuffProps/categories</xpath>
 	</Operation>
 	
-	<!-- Rebalance/rename singularity reactor -->
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/label</xpath>
-		<value>
-			<label>Penrose engine</label>
-		</value>
-	</Operation>
+	<!-- Rebalance singularity reactor -->
 	
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/description</xpath>
