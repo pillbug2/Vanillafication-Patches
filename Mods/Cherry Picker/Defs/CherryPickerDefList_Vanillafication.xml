@@ -207,6 +207,7 @@
 			<li>GeneDef/AG_NereidPocketPlane_Astrogene</li>
 			
 			<!--  Remove Psytrainers (OP)  -->
+			<!--
 			<li>ThingDef/Psytrainer_VPE_WordofTrust</li>
 			<li>ThingDef/Psytrainer_VPE_WordofProductivity</li>
 			<li>ThingDef/Psytrainer_VPE_BlindingPulse</li>
@@ -416,6 +417,7 @@
 			<li>ThingDef/Psytrainer_AAVPE_Laser</li>
 			<li>ThingDef/Psytrainer_AAVPE_Electrify</li>
 			<li>ThingDef/Psytrainer_AAVPE_Regeneration</li>
+			-->
 		</defs>
 	</CherryPicker.DefList>
 </Defs>
