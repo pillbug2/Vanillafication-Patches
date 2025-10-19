@@ -4,22 +4,6 @@
 		<defName>VanillaficationDefList</defName>
 		<label>Vanillafication DefList</label>
 		<defs>
-			<!-- Odyssey chemfuel tanks are obsolesced by VE chemfuel tanks if patched to use network.-->
-			<li>ThingDef/ChemfuelTank</li>
-			<li>ThingDef/LargeChemfuelTank</li>
-			<li>ThingDef/AdvShip_GravChemfuelTank</li>
-			
-			<!--  GravTech OP or bloat  -->
-			<li>ThingDef/Turret_BeamRepeater</li>
-			<li>ThingDef/Turret_GravBlaster</li>
-			<li>ThingDef/AdvShip_TimeFasterPod</li>
-			<li>ThingDef/BigVacBarrier</li>
-			<li>ThingDef/GravBlaster</li>
-			<li>ThingDef/GravRifle</li>
-			<li>ThingDef/GravHammer</li>
-			
-			<!-- Fortification Industrial redundant -->
-			<li>ThingDef/FT_AntennaTower</li>
 			
 			<!--  OP walls  -->
 			<li>ThingDef/VFEM2_CobblestoneWall_ChunkVacstone_NAWDiagonal</li>
@@ -53,10 +37,6 @@
 			<!--  Quest guarantees a free colonist.  -->
 			<li>IncidentDef/VRE_GiveQuest_Intro_Phytokin</li>
 			
-			<!--  Overlap with Oops All Gene Banks  -->
-			<li>ThingDef/RS_GeneRepository</li>
-			<li>ThingDef/RS_GeneVault</li>
-			
 			<!--  Merchants guild is potentially laggy  -->
 			<li>FactionDef/VFEM2_MerchantGuild</li>
 			<li>TraderKindDef/VFEM2_MerchantGuildTrader</li>
@@ -81,6 +61,10 @@
 			<li>ThingDef/BreadMoAM_MineralExports</li>
 			<li>ThingDef/BreadMoAM_Rail</li>
 			<li>ThingDef/BreadMoAM_Crosstie</li>
+			
+			<!-- VE Chemfuel Unofficial Expanded - overlap with VRE Androids -->
+			<!-- TODO also remove this from the related items menu -->
+			<li>ThingDef/VCEUE_NeutroamineTank</li>
 			
 			<!--  Alpha mods bloat  -->
 			<li>ThingDef/AB_ExoticDoor</li>
@@ -207,7 +191,6 @@
 			<li>GeneDef/AG_NereidPocketPlane_Astrogene</li>
 			
 			<!--  Remove Psytrainers (OP)  -->
-			<!--
 			<li>ThingDef/Psytrainer_VPE_WordofTrust</li>
 			<li>ThingDef/Psytrainer_VPE_WordofProductivity</li>
 			<li>ThingDef/Psytrainer_VPE_BlindingPulse</li>
@@ -417,7 +400,6 @@
 			<li>ThingDef/Psytrainer_AAVPE_Laser</li>
 			<li>ThingDef/Psytrainer_AAVPE_Electrify</li>
 			<li>ThingDef/Psytrainer_AAVPE_Regeneration</li>
-			-->
 		</defs>
 	</CherryPicker.DefList>
 </Defs>
