@@ -11,27 +11,4 @@
 		<xpath>Defs/ThingDef[defName="Graweave"]/stuffProps/categories</xpath>
 	</Operation>
 	
-	<!-- Rebalance singularity reactor -->
-	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/description</xpath>
-		<value>
-			<description>High glittertech installation for lifting massive gravships. Provides a modicum of free energy via the Penrose process. May rupture if damaged.</description>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/comps/li[@Class="CompProperties_GravshipFacility"]/statOffsets/SubstructureSupport</xpath>
-		<value>
-			<SubstructureSupport>2000</SubstructureSupport>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="AdvShip_GravReactor"]/comps/li[@Class="CompProperties_Power"]/basePowerConsumption</xpath>
-		<value>
-			<basePowerConsumption>-10000</basePowerConsumption>
-		</value>
-	</Operation>
-	
 </Patch>

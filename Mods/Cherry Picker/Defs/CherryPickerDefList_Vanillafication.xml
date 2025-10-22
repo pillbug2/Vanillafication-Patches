@@ -5,6 +5,17 @@
 		<label>Vanillafication DefList</label>
 		<defs>
 			
+			<!-- Base game -->
+			<li>ChemfuelTank</li>
+			<li>LargeChemfuelTank</li>
+
+			<!-- GravTech -->
+			<li>BigVacBarrier</li>
+			<li>AdvShip_GravChemfuelTank</li>
+			<li>AdvShip_TimeFasterPod</li>
+			<li>Turret_GravBlaster</li>
+			<li>Turret_BeamRepeater</li>
+			
 			<!--  OP walls  -->
 			<li>ThingDef/VFEM2_CobblestoneWall_ChunkVacstone_NAWDiagonal</li>
 			<li>ThingDef/VFEM2_CobblestoneWall_ChunkMarble_NAWDiagonal</li>
