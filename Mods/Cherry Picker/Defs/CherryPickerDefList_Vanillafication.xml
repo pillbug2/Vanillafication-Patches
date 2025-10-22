@@ -6,17 +6,17 @@
 		<defs>
 			
 			<!-- Base game -->
-			<li>ChemfuelTank</li>
-			<li>LargeChemfuelTank</li>
+			<li>ThingDef/ChemfuelTank</li>
+			<li>ThingDef/LargeChemfuelTank</li>
 
 			<!-- GravTech -->
-			<li>BigVacBarrier</li>
-			<li>AdvShip_GravChemfuelTank</li>
-			<li>AdvShip_TimeFasterPod</li>
-			<li>Turret_GravBlaster</li>
-			<li>Turret_BeamRepeater</li>
+			<li>ThingDef/BigVacBarrier</li>
+			<li>ThingDef/AdvShip_GravChemfuelTank</li>
+			<li>ThingDef/AdvShip_TimeFasterPod</li>
+			<li>ThingDef/Turret_GravBlaster</li>
+			<li>ThingDef/Turret_BeamRepeater</li>
 			
-			<!--  OP walls  -->
+			<!-- OP walls -->
 			<li>ThingDef/VFEM2_CobblestoneWall_ChunkVacstone_NAWDiagonal</li>
 			<li>ThingDef/VFEM2_CobblestoneWall_ChunkMarble_NAWDiagonal</li>
 			<li>ThingDef/VFEM2_CobblestoneWall_ChunkSlate_NAWDiagonal</li>
@@ -35,20 +35,20 @@
 			<li>ThingDef/VFEM2_CobblestoneWall_AB_ChunkSlimeStone</li>
 			<li>ThingDef/VFEM2_CobblestoneWall_AB_ChunkMudstone</li>
 			
-			<!--  Inconsistency with vanilla  -->
+			<!-- Inconsistency with vanilla -->
 			<li>ThingDef/Joy_Piano</li>
 			<li>RecipeDef/Make_Joy_Piano</li>
 			
-			<!--  Inconsistency with rendered ears  -->
+			<!-- Inconsistency with rendered ears -->
 			<li>HediffDef/GR_BunnyEars</li>
 			<li>RecipeDef/GR_InstallBunnyEars</li>
 			<li>RecipeDef/GR_CraftBunnyEars</li>
 			<li>ThingDef/GR_BunnyEars</li>
 			
-			<!--  Quest guarantees a free colonist.  -->
+			<!-- Quest guarantees a free colonist. -->
 			<li>IncidentDef/VRE_GiveQuest_Intro_Phytokin</li>
 			
-			<!--  Merchants guild is potentially laggy  -->
+			<!-- Merchants guild is potentially laggy -->
 			<li>FactionDef/VFEM2_MerchantGuild</li>
 			<li>TraderKindDef/VFEM2_MerchantGuildTrader</li>
 			<li>PawnKindDef/VFEM2_Merchant</li>
@@ -56,15 +56,15 @@
 			<li>BackstoryDef/VFEM_MerchantsProdigy156</li>
 			<li>RulePackDef/VFEM2_LeaderTitleMaker_MerchantGuild</li>
 			
-			<!--  Connected Bed unneeded defs  -->
+			<!-- Connected Bed unneeded defs -->
 			<li>ThingDef/VNPE_ConnectedBed</li>
 			<li>ThingDef/VNPE_LoftBedConnector</li>
 			
-			<!--  OP WVC genes  -->
+			<!-- OP WVC genes -->
 			<li>RecipeDef/Make_Genepack_WVC_Traitshifter</li>
 			<li>GeneDef/WVC_Traitshifter</li>
 			
-			<!--  Ancient mining bloat  -->
+			<!-- Ancient mining bloat -->
 			<li>ThingDef/BreadMoAM_ElectricalEquipment</li>
 			<li>ThingDef/BreadMoAM_MineralConveyor</li>
 			<li>ThingDef/BreadMoAM_TunnelStructuralSupport_a</li>
@@ -77,7 +77,7 @@
 			<!-- TODO also remove this from the related items menu -->
 			<li>ThingDef/VCEUE_NeutroamineTank</li>
 			
-			<!--  Alpha mods bloat  -->
+			<!-- Alpha mods bloat -->
 			<li>ThingDef/AB_ExoticDoor</li>
 			<li>ThingDef/AB_ExoticAutoDoor</li>
 			<li>ThingDef/AB_ExoticWall</li>
@@ -201,7 +201,7 @@
 			<li>GeneDef/VREA_AG_NereidHead</li>
 			<li>GeneDef/AG_NereidPocketPlane_Astrogene</li>
 			
-			<!--  Remove Psytrainers (OP)  -->
+			<!-- Remove Psytrainers (OP) -->
 			<li>ThingDef/Psytrainer_VPE_WordofTrust</li>
 			<li>ThingDef/Psytrainer_VPE_WordofProductivity</li>
 			<li>ThingDef/Psytrainer_VPE_BlindingPulse</li>
@@ -411,6 +411,7 @@
 			<li>ThingDef/Psytrainer_AAVPE_Laser</li>
 			<li>ThingDef/Psytrainer_AAVPE_Electrify</li>
 			<li>ThingDef/Psytrainer_AAVPE_Regeneration</li>
+			
 		</defs>
 	</CherryPicker.DefList>
 </Defs>
